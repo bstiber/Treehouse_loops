@@ -18,8 +18,8 @@ end
 
 # This is what it takes to pass the challenge..?
 
-# loop do
-#   answer = get_answer()
-# break if
-# answer == "e"
-# end
+loop do
+  answer = get_answer()
+break if
+answer == "e"
+end
