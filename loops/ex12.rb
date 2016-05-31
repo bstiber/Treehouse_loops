@@ -16,3 +16,10 @@ def parse_answer(answer, kind="string")
   answer = answer.to_i if kind=="number"
   return answer
 end
+
+# Assign the value of the key name to the return value of the method get_name() in the contact hash.
+# Assume that get_name() returns a string.
+
+contact_list = []
+
+contact = {"name" => get_name(), "phone_number" => "" }

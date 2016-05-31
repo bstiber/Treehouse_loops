@@ -11,3 +11,7 @@ end
 for array in ["majic", "maker", "hands"]
   puts "You got the #{array}."
 end
+
+
+# Use a for loop to print each item in the animals array to the screen using
+# the puts method.
