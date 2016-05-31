@@ -23,3 +23,12 @@ end
 contact_list = []
 
 contact = {"name" => get_name(), "phone_number" => "" }
+
+# Assign the value of the key phone_number to the return value of the method get_phone_number()
+# in the contact hash. Assume that get_phone_number() returns a string.
+
+contact = {"name" => get_name(), "phone_number" => get_phone_number() }
+
+# append the contact_list
+
+contact_list.push(contact)
